@@ -27,6 +27,7 @@ body{
     color: #3a5d01;
     margin-top: 0px;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .quiz-header{
@@ -42,6 +43,10 @@ ul li{
     margin: 0.5rem 0;
     font-size: 1.1rem;
     font-weight: lighter;
+}
+
+ul li label{
+    cursor: pointer;
 }
 
 button {
