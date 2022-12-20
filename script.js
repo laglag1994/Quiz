@@ -21,14 +21,16 @@
         a: 'Trinity is your baby',
         b: 'Malik is your baby',
         c: 'Katana is your baby',
+        d: 'Goon is your baby',
         correct:'a'
     },
     {
         question: 'will you marry me? ',
         a: 'yes',
         b: 'yes',
-
-        correct: 'a'& 'b'
+        c:'yes',
+        d:'yes',
+        correct: 'a'& 'b' &'c'&'d'
     }
 
  ]
