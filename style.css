@@ -1,14 +1,14 @@
-*{box-sizing: border-box;
+* {
+    box-sizing: border-box;
 
 }
 
 
 
-body{
+body {
     font-family: 'Epilogue', sans-serif;
     margin: 0;
-    background-image: linear-gradient(#a589a1, #c5af99)
-    ;
+    background-image: linear-gradient(#a589a1, #c5af99);
     background-size: cover;
     min-height: 100vh;
     justify-content: center;
@@ -16,41 +16,44 @@ body{
     display: flex;
 }
 
-.container{
+.container {
     background-color: #c5af99;
     width: 600px;
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 5px rgb(0, 0, 0,0.2);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
 }
-.container h2{
+
+.container h2 {
     color: #3a5d01;
     margin-top: 0px;
     font-size: 1.5rem;
     text-align: center;
 }
 
-.quiz-header{
+.quiz-header {
     padding: 2rem 4rem;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding: 0;
     line-height: 40px;
 }
-ul li{
+
+ul li {
     margin: 0.5rem 0;
     font-size: 1.1rem;
     font-weight: lighter;
 }
 
-ul li label{
+ul li label {
     cursor: pointer;
 }
 
 button {
-    background-color: #4e3149; /* Green */
+    background-color: #4e3149;
+    /* Green */
     border: none;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -61,10 +64,8 @@ button {
     font-size: 1.5rem;
     width: 100%;
     cursor: pointer;
-  } 
+}
 
-  button:hover{
+button:hover {
     background-color: #41263c;
-  }
-
-
+}
